@@ -1,19 +1,30 @@
 <html>
-    <title>Chillyrics.com</title>
-    <head><link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+        <title>Chillyrics.com</title>
+      <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+    </head>
     <div class="topnav">
         <h1>CHILLYRICS</h1>
         <a href="#home">HOME</a>
         <a href="#songs">SONGS</a>
         <a href="#genre">GENRE</a>
-        <a href="#genre">CREDITS</a>
+        <a href="#credits">CREDITS</a>
     </div>
     <body>
     <img class="logo" src="./images/logo.png">
-    <div class="content">
-    <a href="search.html">Open</a>
-    </div>
+        <div class="box">
+            <form name="search">
+                <input type="text" class="input" name="txt" 
+                onmouseout="this.value = ''; this.blur();">
+            </form>
+                <i class="fas fa-search"></i>
+        </div>
+      <a href="https://www.youtube.com/channel/UCysN-TyupiJvZQkMMrBhMMw" target="_blank" id="ytb">
+      <i class="fab fa-youtube"> </i>
+      </a>
     </body>
     
 </html>
